@@ -11,7 +11,7 @@ client = TelegramClient('anon', api_id, api_hash)
 async def my_event_handler(event):
     if 'attack' in event.raw_text:
         for attack in range(1000):
-            await client.send_message(f"@{username}", "Belissimo code: 101010101")
+            await client.send_message(f"@{username}", "Error: 958\nPlease, check your security! by T958")
 
 client.start()
 client.run_until_disconnected()
